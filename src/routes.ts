@@ -111,31 +111,45 @@ const setupRoutes = async (Provider) => {
     })
   );
 
+  import getConnection from "./Functions/Funciones";  // Asegúrate de importar la conexión a MySQL
+
   await Provider.http?.server.post(
     "/login",
     handleCtx(async (bot, req, res) => {
       try {
-        const rutaApi = process.env.RUTA_API + "login";
-        const response = await fetch(rutaApi, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(req.body),
-        });
-        const responseData = await response.json();
-
-        res.writeHead(response.status, { "Content-Type": "application/json" });
-        res.end(JSON.stringify(responseData));
-      } catch (error) {
-        console.error("Error al realizar la redirección:", error);
-        res.writeHead(500, { "Content-Type": "application/json" });
-        res.end(
-          JSON.stringify({ Type: false, message: "Error interno del servidor" })
+        const { email, password } = req.body;  // Capturamos el usuario y contraseña
+        const connection = getConnection();
+        connection.connect();
+  
+        // Verificamos si el usuario existe en la base de datos
+        connection.query(
+          "SELECT * FROM users WHERE email = ? AND password = ?",
+          [email, password],
+          (error, results) => {
+            if (error) {
+              res.writeHead(500, { "Content-Type": "application/json" });
+              res.end(
+                JSON.stringify({ Type: false, message: "Error en la base de datos" })
+              );
+            } else if (results.length > 0) {
+              res.writeHead(200, { "Content-Type": "application/json" });
+              res.end(JSON.stringify({ Type: true, message: "Login exitoso", Panel: "/dashboard" }));
+            } else {
+              res.writeHead(401, { "Content-Type": "application/json" });
+              res.end(JSON.stringify({ Type: false, message: "Credenciales incorrectas" }));
+            }
+          }
         );
+  
+        connection.end();
+      } catch (error) {
+        console.error("Error en el login:", error);
+        res.writeHead(500, { "Content-Type": "application/json" });
+        res.end(JSON.stringify({ Type: false, message: "Error interno del servidor" }));
       }
     })
   );
+  
 
   await Provider.http?.server.post(
     "/register-user",

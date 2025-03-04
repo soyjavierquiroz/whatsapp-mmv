@@ -1,0 +1,39 @@
+.btn-estandar{
+    padding: 0 20px;
+    font-size: 15px;
+    line-height: 17px;
+    margin-left: 8px;
+    font-weight: bold;
+}
+.btn-cancel{
+    background-color: #e4e6eb;
+}
+:root{
+    font-family: Helvetica, Arial, sans-serif !important;
+}
+body{
+    
+    background-color: #e9ebee !important;
+}
+.card_reset{
+    margin-left: 330px;
+    margin-top: 50%;
+}
+
+input[type="password"] {
+    margin-bottom: 0 !important;
+}
+
+.form-login{
+    max-width: 396px;
+}
+.form-register{
+    max-width: 496px;
+}
+.btn-new-count{
+    background-color: #42b72a !important;
+    color: #fff;
+}
+.btn-new-count:hover{
+    background-color: #24a20b !important;
+}

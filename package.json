@@ -1,0 +1,26 @@
+{
+  "name": "MMW_V2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsm ./src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@bot-whatsapp/bot": "0.1.3-alpha.9",
+    "@bot-whatsapp/provider-baileys": "0.1.3-alpha.9",
+    "@types/node": "^20.12.7",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "serve-static": "^1.15.0"
+  }
+}

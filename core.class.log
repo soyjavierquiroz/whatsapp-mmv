@@ -1,0 +1,383 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573133276641@s.whatsapp.net',
+    fromMe: false,
+    id: '32BA438D56F6597BAEDF5F200773755F',
+    participant: undefined
+  },
+  messageTimestamp: 1718160050,
+  pushName: 'erika rodriguez',
+  broadcast: false,
+  message: Message {
+    conversation: 'Ah bueno y es que está viviendo con usted',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Ah bueno y es que está viviendo con usted',
+  name: 'erika rodriguez',
+  from: '573133276641'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573154950744@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB065B5A3D482D8C5010C',
+    participant: undefined
+  },
+  messageTimestamp: 1718160105,
+  pushName: 'Laura',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Aún ando en eso, esta bien tedioso eso',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Aún ando en eso, esta bien tedioso eso',
+  name: 'Laura',
+  from: '573154950744'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573133276641@s.whatsapp.net',
+    fromMe: false,
+    id: '483FFB23F766C06FB8D608F3AB20E831',
+    participant: undefined
+  },
+  messageTimestamp: 1718160717,
+  pushName: 'erika rodriguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Y que está estudiando',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Y que está estudiando',
+  name: 'erika rodriguez',
+  from: '573133276641'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573133276641@s.whatsapp.net',
+    fromMe: false,
+    id: '6FE7D747D8429993DB0A4798A2553099',
+    participant: undefined
+  },
+  messageTimestamp: 1718161023,
+  pushName: 'erika rodriguez',
+  broadcast: false,
+  message: Message {
+    conversation: 'Ah vea pues',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Ah vea pues',
+  name: 'erika rodriguez',
+  from: '573133276641'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573133276641@s.whatsapp.net',
+    fromMe: false,
+    id: '153D7E2F06AF9575770B397799558AC7',
+    participant: undefined
+  },
+  messageTimestamp: 1718161025,
+  pushName: 'erika rodriguez',
+  broadcast: false,
+  message: Message {
+    conversation: 'Que bien',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Que bien',
+  name: 'erika rodriguez',
+  from: '573133276641'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573154950744@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB022399D41871146CDC9',
+    participant: undefined
+  },
+  messageTimestamp: 1718163157,
+  pushName: 'Laura',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Aún en eso',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Aún en eso',
+  name: 'Laura',
+  from: '573154950744'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573154950744@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0FFCC8B61363AC7A7D6',
+    participant: undefined
+  },
+  messageTimestamp: 1718163292,
+  pushName: 'Laura',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Ando sola, Diego anta con otros problemas aparte, me dio 20 minutos y ya le toca trabajar en otra cosa a él 😕',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Ando sola, Diego anta con otros problemas aparte, me dio 20 minutos y ya le toca trabajar en otra cosa a él 😕',
+  name: 'Laura',
+  from: '573154950744'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573154950744@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0ED662408D9468F66E9',
+    participant: undefined
+  },
+  messageTimestamp: 1718163763,
+  pushName: 'Laura',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'El lío es que Diego me va a quitar el acceso, yo aún no soy ni seré capaz de sacar el pc\n' +
+        'Quedaría en las mismas',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'El lío es que Diego me va a quitar el acceso, yo aún no soy ni seré capaz de sacar el pc\n' +
+    'Quedaría en las mismas',
+  name: 'Laura',
+  from: '573154950744'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573154950744@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB051828BBB8A34BAAE93',
+    participant: undefined
+  },
+  messageTimestamp: 1718164078,
+  pushName: 'Laura',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Por que va en contra de las reglas eso',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Por que va en contra de las reglas eso',
+  name: 'Laura',
+  from: '573154950744'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573154950744@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB02DDE62370044504CB1',
+    participant: undefined
+  },
+  messageTimestamp: 1718164092,
+  pushName: 'Laura',
+  broadcast: false,
+  message: Message {
+    imageMessage: ImageMessage {
+      interactiveAnnotations: [],
+      scanLengths: [],
+      annotations: [],
+      url: 'https://mmg.whatsapp.net/o1/v/t62.7118-24/f1/m231/up-oil-image-af658deb-9761-417f-afe2-d04047326045?ccb=9-4&oh=01_Q5AaIEMDvpAOIkss1GIqNqz9IIolsybBiK0iIKgeuE-2GX-n&oe=66909458&_nc_sid=000000&mms3=true',
+      mimetype: 'image/jpeg',
+      caption: 'Y por esto también',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      height: 170,
+      width: 674,
+      mediaKey: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      directPath: '/o1/v/t62.7118-24/f1/m231/up-oil-image-af658deb-9761-417f-afe2-d04047326045?ccb=9-4&oh=01_Q5AaIEMDvpAOIkss1GIqNqz9IIolsybBiK0iIKgeuE-2GX-n&oe=66909458&_nc_sid=000000',
+      mediaKeyTimestamp: [Long],
+      jpegThumbnail: [Uint8Array],
+      contextInfo: [ContextInfo],
+      viewOnce: false
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  status: 4,
+  body: '_event_media__df538912-1b4e-45fd-adc2-2a825cda02e5',
+  name: 'Laura',
+  from: '573154950744'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573154950744@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0F6A04DF12D5E31B867',
+    participant: undefined
+  },
+  messageTimestamp: 1718164144,
+  pushName: 'Laura',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Nop, yo lo solicite y me lo negaron',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Nop, yo lo solicite y me lo negaron',
+  name: 'Laura',
+  from: '573154950744'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573154950744@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0D5802D3FE9B4762847',
+    participant: undefined
+  },
+  messageTimestamp: 1718164323,
+  pushName: 'Laura',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Lo que pasa es que la empresa alquilo unos computadores, dichos computadores no los asignaron a nosotros, esos pc tienen una marca por lo tanto son fáciles de identificar, y no se pueden sacar de la empresa por que como tal no son de la empresa, eso fue lo que nos dijeron',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Lo que pasa es que la empresa alquilo unos computadores, dichos computadores no los asignaron a nosotros, esos pc tienen una marca por lo tanto son fáciles de identificar, y no se pueden sacar de la empresa por que como tal no son de la empresa, eso fue lo que nos dijeron',
+  name: 'Laura',
+  from: '573154950744'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573154950744@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB02882724E5CFAA0F79D',
+    participant: undefined
+  },
+  messageTimestamp: 1718164377,
+  pushName: 'Laura',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Debe ser por que somos Sena jaja \n' +
+        'Pues después de que me saque me iré a dormir, no queda de otra',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Debe ser por que somos Sena jaja \n' +
+    'Pues después de que me saque me iré a dormir, no queda de otra',
+  name: 'Laura',
+  from: '573154950744'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573154950744@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0882D2D5929A95C3859',
+    participant: undefined
+  },
+  messageTimestamp: 1718164494,
+  pushName: 'Laura',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Ajá, los que primero nos habían asignado si podíamos solicitar permiso para sacarlo, era ventaja',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Ajá, los que primero nos habían asignado si podíamos solicitar permiso para sacarlo, era ventaja',
+  name: 'Laura',
+  from: '573154950744'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573154950744@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0D10EBD4AA0D33B04D5',
+    participant: undefined
+  },
+  messageTimestamp: 1718165319,
+  pushName: 'Laura',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Sip, por esa razón no nos rinde, en mi caso hago mas de noche',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Sip, por esa razón no nos rinde, en mi caso hago mas de noche',
+  name: 'Laura',
+  from: '573154950744'
+}
